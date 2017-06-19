@@ -1,0 +1,57 @@
+.drive-box {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+    background: white;
+}
+
+.x-axis,.y-axis {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.x-axis {
+    top: 20px;
+    left: 50px;
+    height: 30px;
+}
+.x-axis li {
+    float: left;
+    width: 50px;
+}
+.y-axis {
+    top: 50px;
+    left: 20px;
+    width: 30px;
+}
+.y-axis li {
+    height: 50px;
+    line-height: 50px;
+}
+
+.playground {
+    position: relative;
+    display: inline-block;
+    width: 498px; /* js control */
+    height: 498px; /* js control */
+    border: 2px solid black;
+    background-color: white;
+    background-image:
+            repeating-linear-gradient(to right, transparent, transparent 48px, #d3d3d3 50px),
+            repeating-linear-gradient(to bottom, transparent, transparent 48px, #d3d3d3 50px);
+}
+
+.box {
+    position: absolute;
+    top: 0; /* js control */
+    left: 0; /* js control */
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    transform: rotate(0deg); /* js control*/
+    background-image: linear-gradient(to bottom, blue, blue 30%, red 25%, red);
+    transition: all 1s ease-out;
+}

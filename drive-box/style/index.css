@@ -1,0 +1,39 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: white;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#boxplayground {
+    margin-top: 30px;
+}
+
+#controller {
+    box-sizing: border-box;
+    margin-right: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 1.1em;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    outline: none;
+}
+
+#controller:focus {
+    border-color: #4D90FE;
+}
+
+#execute {
+    padding: 5px 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    outline: none;
+}
